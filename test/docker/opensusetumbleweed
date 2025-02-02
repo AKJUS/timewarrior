@@ -7,10 +7,9 @@ RUN zypper install -y \
            man \
            python3 \
            python3-python-dateutil \
-           ruby
+           ruby \
+           ruby3.4-rubygem-asciidoctor
 
-RUN gem install asciidoctor -v 2.0.17
-RUN update-alternatives --install /usr/bin/asciidoctor asciidoctor /usr/bin//asciidoctor.ruby3.3 10
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10
 ENV TZ=Europe/Berlin
 
@@ -33,4 +32,4 @@ RUN make install
 WORKDIR /root/code/test/
 RUN make -j2
 
-CMD ["bash", "-c", "./run_all -v ; cat all.log | grep 'not ok' ; ./problems ; FAILED=$? ; echo timew $( timew --version ) ; python --version ; cmake --version ; gcc --version ; exit $FAILED"]
+CMD ["bash", "-c", "./run_all -v ; cat all.log | grep 'not ok' ; ./problems ; FAILED=$? ; echo timew $( timew --version ) ; python --version ; cmake --version ; gcc --version ; asciidoctor --version ; exit $FAILED"]

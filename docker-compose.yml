@@ -1,4 +1,3 @@
-version: '3'
 services:
   test-alpine-edge:
     build:
@@ -48,18 +47,18 @@ services:
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-fedora37:
+  test-fedora40:
     build:
       context: .
-      dockerfile: test/docker/fedora37
+      dockerfile: test/docker/fedora40
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-fedora38:
+  test-fedora41:
     build:
       context: .
-      dockerfile: test/docker/fedora38
+      dockerfile: test/docker/fedora41
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
@@ -80,14 +79,6 @@ services:
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-ubuntu1804:
-    build:
-      context: .
-      dockerfile: test/docker/ubuntu1804
-    network_mode: "host"
-    security_opt:
-      - label=type:container_runtime_t
-    tty: true
   test-ubuntu2004:
     build:
       context: .
@@ -100,6 +91,14 @@ services:
     build:
       context: .
       dockerfile: test/docker/ubuntu2204
+    network_mode: "host"
+    security_opt:
+      - label=type:container_runtime_t
+    tty: true
+  test-ubuntu2404:
+    build:
+      context: .
+      dockerfile: test/docker/ubuntu2404
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
