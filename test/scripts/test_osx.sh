@@ -1,14 +1,14 @@
 set -x
 
-brew install cmake
 brew install pyenv
 brew install asciidoctor
 
+export PYTHON_VERSION="3.10.16"
 export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="${PYENV_ROOT}/bin:${PATH}"
 eval "$( pyenv init --path )"
-pyenv install 3.10.0
-pyenv global 3.10.0
+pyenv install "${PYTHON_VERSION}"
+pyenv global "${PYTHON_VERSION}"
 pip install --upgrade pip
 pip install python-dateutil
 
@@ -27,6 +27,7 @@ grep 'not ok' all.log
 ./problems
 EXIT_CODE=$?
 echo "timew $( timew --version )"
+asciidoctor --version
 python --version
 cmake --version
 clang --version
