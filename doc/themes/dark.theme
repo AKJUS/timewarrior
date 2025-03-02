@@ -24,12 +24,8 @@
 #
 ###############################################################################
 
-# TODO First color theme - this is not finalized, and subject to complete change
-#      and therefore should not be relied upon or duplicated.
-# TODO Build up this one and when it stabilizes, add more themes.
-
 define theme:
-  description = "dark.theme: A default, 256-color theme"
+  description = "dark.theme: A default, 256-color theme."
   colors:
     # General UI color.
     exclusion = "gray8 on gray4"
