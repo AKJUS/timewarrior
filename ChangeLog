@@ -1,10 +1,11 @@
- - #600   Add retag command to internal help
+- #620    Fix installation of man pages from tarball
+- #600    Add retag command to internal help
           (thanks to Stefan Herold)
- - #616   Add zsh completion
+- #616    Add zsh completion
           (thanks to Ian Kenney)
- - #633   Make week number parsing ISO8601 compliant
+- #633    Make week number parsing ISO8601 compliant
           (thanks to Scott Mcdermott)
- - #632   Fix py3.12 warnings for datetime usage, non-raw regex strings
+- #632    Fix py3.12 warnings for datetime usage, non-raw regex strings
           (thanks to Scott Mcdermott)
 
 ------ current release ---------------------------
