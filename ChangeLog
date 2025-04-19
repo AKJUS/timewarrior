@@ -1,4 +1,9 @@
+------ current release ---------------------------
+
+1.8.0 (2025-04-20) -
+
 - #658    Add sub-command 'range' to command 'modify'
+          (thanks to Sebastian Carlos)
 - #620    Fix installation of man pages from tarball
 - #600    Add retag command to internal help
           (thanks to Stefan Herold)
@@ -9,7 +14,7 @@
 - #632    Fix py3.12 warnings for datetime usage, non-raw regex strings
           (thanks to Scott Mcdermott)
 
------- current release ---------------------------
+------ old releases ------------------------------
 
 1.7.1 (2024-01-16) - 2514d506b5580154f1e00c0e72b17c8e9bc89cb7
 
@@ -19,8 +24,6 @@
           (thanks to Eugene Morozov)
 - #583    README - Update build instructions
           (thanks to Joachim Meyer)
-
------- old releases ------------------------------
 
 1.7.0 (2023-12-24) - 63f7fc95a0fa20dc768ae4e94b7f2d79c306f9dd
 
