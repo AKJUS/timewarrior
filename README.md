@@ -31,7 +31,7 @@ Please visit [timewarrior.net](https://timewarrior.net/docs/) for extensive docu
 
 ### From Package
 
-Thanks to the community, there are binary packages available [here](https://timewarrior.net/docs/install.html#distributions).
+Thanks to the community, there are binary packages available [here](https://timewarrior.net/docs/install/#distributions).
 
 ### Building Timewarrior
 
