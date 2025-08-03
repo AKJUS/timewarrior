@@ -1,27 +1,27 @@
+- #660    Fix man page section numbers and reference formatting
+- #661    Make display of ids and annotations the default in summary report for new users
+- #669    id filtering for charts and reports
 - #676    Add import command
           (thanks to Shaun Ruffel)
 - #677    Extension names starting with 'timew' cause problems
           (thanks to ftambara)
-- #661    Make display of ids and annotations the default in summary report for new users
-- #669    id filtering for charts and reports
-- #660    Fix man page section numbers and reference formatting
 - #694    Improve documentation on DOM references
 
 ------ current release ---------------------------
 
 1.8.0 (2025-04-20) - 2257084710247189231118bc9257180a815ef21a
 
-- #658    Add sub-command 'range' to command 'modify'
-          (thanks to Sebastian Carlos)
-- #620    Fix installation of man pages from tarball
 - #600    Add retag command to internal help
           (thanks to Stefan Herold)
 - #616    Add zsh completion
           (thanks to Ian Kenney)
-- #633    Make week number parsing ISO8601 compliant
-          (thanks to Scott Mcdermott)
+- #620    Fix installation of man pages from tarball
 - #632    Fix py3.12 warnings for datetime usage, non-raw regex strings
           (thanks to Scott Mcdermott)
+- #633    Make week number parsing ISO8601 compliant
+          (thanks to Scott Mcdermott)
+- #658    Add sub-command 'range' to command 'modify'
+          (thanks to Sebastian Carlos)
 
 ------ old releases ------------------------------
 
