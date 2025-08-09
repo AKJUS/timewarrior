@@ -81,6 +81,7 @@ set (CPACK_SOURCE_IGNORE_FILES  "CMakeCache"
                                 "src/commands/libcommands.a"
                                 "src/lex$"
                                 "src/liblibshared.a"
+                                "/\\\\.github/"
                                 "/\\\\.gitignore"
                                 "/\\\\.git/"
                                 "swp$")
