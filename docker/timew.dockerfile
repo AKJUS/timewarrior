@@ -1,19 +1,20 @@
-FROM ubuntu:22.04 AS base
+FROM ubuntu:24.04 AS base
 
 FROM base AS builder
 
-ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 
-RUN ( apt-get update && yes | unminimize ) && \
-    apt-get install -y \
+RUN apt-get update
+RUN apt-get install -y \
+            asciidoctor \
             cmake \
             g++ \
             git
 
 # Setup language environment
-ENV LC_ALL en_US.UTF-8
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US.UTF-8
+ENV LC_ALL=en_US.UTF-8
+ENV LANG=en_US.UTF-8
+ENV LANGUAGE=en_US.UTF-8
 
 # Add source directory
 ADD .. /root/code/
@@ -29,7 +30,9 @@ RUN git clean -dfx && \
 FROM base AS runner
 
 # Install Timewarrior
-COPY --from=builder /root/code/src/timew /usr/local/bin
+COPY --from=builder --chown=0:0 /root/code/src/timew /usr/local/bin
+COPY --from=builder --chown=0:0 /root/code/src/timew/doc/ /usr/local/share/doc/timew/
+COPY --from=builder --chown=0:0 /root/code/src/timew/man/ /usr/local/share/man/
 
 # Initialize Timewarrior
 RUN timew :yes
