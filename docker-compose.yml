@@ -31,66 +31,66 @@ services:
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-debianstable:
+  test-debian-stable:
     build:
       context: .
-      dockerfile: test/docker/debianstable
+      dockerfile: test/docker/debian-stable
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-debiantesting:
+  test-debian-testing:
     build:
       context: .
-      dockerfile: test/docker/debiantesting
+      dockerfile: test/docker/debian-testing
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-fedora41:
+  test-fedora-41:
     build:
       context: .
-      dockerfile: test/docker/fedora41
+      dockerfile: test/docker/fedora-41
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-fedora42:
+  test-fedora-42:
     build:
       context: .
-      dockerfile: test/docker/fedora42
+      dockerfile: test/docker/fedora-42
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-opensuseleap:
+  test-opensuse-leap:
     build:
       context: .
-      dockerfile: test/docker/opensuseleap
+      dockerfile: test/docker/opensuse-leap
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-opensusetumbleweed:
+  test-opensuse-tumbleweed:
     build:
       context: .
-      dockerfile: test/docker/opensusetumbleweed
+      dockerfile: test/docker/opensuse-tumbleweed
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-ubuntu2204:
+  test-ubuntu-2204:
     build:
       context: .
-      dockerfile: test/docker/ubuntu2204
+      dockerfile: test/docker/ubuntu-2204
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t
     tty: true
-  test-ubuntu2404:
+  test-ubuntu-2404:
     build:
       context: .
-      dockerfile: test/docker/ubuntu2404
+      dockerfile: test/docker/ubuntu-2404
     network_mode: "host"
     security_opt:
       - label=type:container_runtime_t

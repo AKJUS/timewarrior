@@ -23,25 +23,25 @@ jobs:
             container: debianstable
           - name: "Debian Testing"
             runner: ubuntu-latest
-            container: debiantesting
+            container: debian-testing
           - name: "Fedora 41"
             runner: ubuntu-latest
-            container: fedora41
+            container: fedora-41
           - name: "Fedora 42"
             runner: ubuntu-latest
-            container: fedora42
+            container: fedora-42
           - name: "OpenSUSE Leap"
             runner: ubuntu-latest
-            container: opensuseleap
+            container: opensuse-leap
           - name: "OpenSUSE Tumbleweed"
             runner: ubuntu-latest
-            container: opensusetumbleweed
+            container: opensuse-tumbleweed
           - name: "Ubuntu 22.04"
             runner: ubuntu-latest
-            container: ubuntu2204
+            container: ubuntu-2204
           - name: "Ubuntu 24.04"
             runner: ubuntu-latest
-            container: ubuntu2204
+            container: ubuntu-2404
           - name: "macOS 13"
             runner: macos-13
             container: osx-13
