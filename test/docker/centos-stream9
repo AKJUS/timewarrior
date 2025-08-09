@@ -7,7 +7,7 @@ RUN dnf -y install \
         cmake \
         gcc-c++ \
         git \
-        glibc-langpack-en.x86_64 \
+        glibc-langpack-en \
         make \
         man \
         python3 \
