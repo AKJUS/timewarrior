@@ -20,7 +20,7 @@ jobs:
             container: centos-stream9
           - name: "Debian Stable"
             runner: ubuntu-latest
-            container: debianstable
+            container: debian-stable
           - name: "Debian Testing"
             runner: ubuntu-latest
             container: debian-testing
