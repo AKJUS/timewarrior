@@ -42,7 +42,19 @@ function __get_ids()
 
 function __get_tags()
 {
-  timew get dom.tracked.tags "${TIMEW_COMPLETION_TAGS_RANGE:-":all"}"
+  tags=$(timew get dom.tracked.tags "${TIMEW_COMPLETION_TAGS_RANGE:-":all"}")
+  # return each tag on its own line
+  while [[ "${tags}" ]]; do
+    if [[ "${tags}" =~ ^\"[^\"]*\" ]]; then
+      tag="${BASH_REMATCH[0]:1:-1}"
+      tags="${tags#\"${tag}\"}"
+    else
+      tag="${tags%% *}"
+      tags="${tags#$tag}"
+    fi
+    echo "${tag}"
+    tags="${tags# }"
+  done
 }
 
 function __get_extensions()
@@ -177,7 +189,7 @@ function _timew()
       ;;
   esac
 
-  COMPREPLY=($( compgen -W "${wordlist}" -- "${cur}" ))
+  COMPREPLY=( $( compgen -W "${wordlist}" -- "${cur}" ) )
 }
 
 complete -F _timew timew
