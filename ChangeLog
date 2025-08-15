@@ -1,3 +1,8 @@
+------ current release ---------------------------
+
+1.9.0 (2025-08-16) -
+
+- #300    Re-enable the fill command
 - #660    Fix man page section numbers and reference formatting
 - #661    Make display of ids and annotations the default in summary report for new users
 - #669    id filtering for charts and reports
@@ -11,7 +16,7 @@
           (thanks to Ian Kenney)
 - #697    Enable :fill hint for command 'modify'
 
------- current release ---------------------------
+------ old releases ------------------------------
 
 1.8.0 (2025-04-20) - 2257084710247189231118bc9257180a815ef21a
 
