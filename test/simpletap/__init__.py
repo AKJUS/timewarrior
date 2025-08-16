@@ -21,7 +21,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-# https://www.opensource.org/licenses/mit-license.php
+# https://opensource.org/license/mit
 #
 ###############################################################################
 

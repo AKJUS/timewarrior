@@ -154,7 +154,7 @@ ${XDG_DATA_HOME:-$HOME/.local/share}/timewarrior/data/YYYY-MM.data::
 == pass:[CREDITS & COPYRIGHT]
 Copyright (C) 2015 - {localyear} Gothenburg Bit Factory. +
 Timewarrior is distributed under the MIT license.
-See https://www.opensource.org/licenses/mit-license.php for more information.
+See https://opensource.org/license/mit for more information.
 
 == FURTHER DOCUMENTATION
 For more information regarding Timewarrior, see the following:
