@@ -1,6 +1,7 @@
+.cmake/
+_CPack_Packages/
 CMakeFiles/
 CMakeCache.txt
-CPack*
 Makefile
 cmake.h
 commit.h
