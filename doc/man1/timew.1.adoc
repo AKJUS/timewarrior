@@ -152,7 +152,7 @@ ${XDG_DATA_HOME:-$HOME/.local/share}/timewarrior/data/YYYY-MM.data::
     Time tracking data files if legacy _~/.timewarrior_ directory doesn't exist.
 
 == pass:[CREDITS & COPYRIGHT]
-Copyright (C) 2015 - 2018 T. Lauf, P. Beckingham, F. Hernandez. +
+Copyright (C) 2015 - {localyear} Gothenburg Bit Factory. +
 Timewarrior is distributed under the MIT license.
 See https://www.opensource.org/licenses/mit-license.php for more information.
 
