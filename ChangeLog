@@ -1,6 +1,6 @@
 ------ current release ---------------------------
 
-1.9.0 (2025-08-16) -
+1.9.0 (2025-08-16) - 9cd18aab0e10f0b14e89395ab584e50eef1ffae5
 
 - #300    Re-enable the fill command
 - #660    Fix man page section numbers and reference formatting
