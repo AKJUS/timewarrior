@@ -23,6 +23,7 @@ It is a portable, well-supported and very active Open Source project.
 Please visit [timewarrior.net](https://timewarrior.net/docs/) for extensive documentation, downloads, news and more.
 
 ## Installing
+[![Packaging status](https://repology.org/badge/tiny-repos/timew.svg)](https://repology.org/project/timew/versions)
 [![Arch Linux](https://img.shields.io/archlinux/v/extra/x86_64/timew)](https://archlinux.org/packages/extra/x86_64/timew/)
 [![Debian](https://img.shields.io/debian/v/timewarrior/testing)](https://packages.debian.org/search?keywords=timewarrior&searchon=names&suite=all&section=all)
 [![Fedora](https://img.shields.io/fedora/v/timew)](https://bodhi.fedoraproject.org/updates/?packages=timew)
