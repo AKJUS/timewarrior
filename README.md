@@ -74,21 +74,21 @@ Add the optional parameter `-DCMAKE_INSTALL_PREFIX=/path/to/your/install/locatio
 The `cmake --install` command may not require `sudo` depending on your choice of install location.
 
 ## Community
-[![Twitter](https://img.shields.io/twitter/follow/timewarrior_net?style=social)](https://twitter.com/timewarrior_net)
+[![X](https://img.shields.io/twitter/follow/timewarrior_net?style=social)](https://twitter.com/timewarrior_net)
 [![Reddit](https://img.shields.io/reddit/subreddit-subscribers/taskwarrior?style=social)](https://reddit.com/r/taskwarrior/)
 [![Libera.chat](https://img.shields.io/badge/IRC%20libera.chat-online-green)](https://web.libera.chat/#taskwarrior)
-[![Discord](https://img.shields.io/discord/796949983734661191?label=discord)](https://discord.gg/HYpSAeVH)
+[![Discord](https://img.shields.io/discord/796949983734661191?label=discord)](https://discord.gg/2yw4qgTSgc)
 [![GitHub discussions](https://img.shields.io/github/discussions/GothenburgBitFactory/timewarrior?label=GitHub%20discussions)](https://github.com/GothenburgBitFactory/timewarrior/discussions)
 
 Timewarrior has a lively community on many places on the internet.
-The project has its own Twitter account, and shares community spaces on IRC and Discord with [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior).
+The project has its own [X account](https://x.com/timewarrior_net), and shares community spaces Discord with [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior).
 
-Best place to ask questions is our [discussions forum on GitHub](https://github.com/GothenburgBitFactory/timewarrior/discussions).
+Best place to ask questions is our [Discord channel](https://discord.gg/536GAvdS2Q), or our [discussions forum on GitHub](https://github.com/GothenburgBitFactory/timewarrior/discussions).
 For other support options, take a look at [timewarrior.net/support](https://timewarrior.net/support)
 
 ## Contributing
 [![Contributors](https://img.shields.io/github/contributors/GothenburgBitFactory/timewarrior)](https://github.com/GothenburgBitFactory/timewarrior/graphs/contributors)
-[![Milestone progress](https://img.shields.io/github/milestones/progress/GothenburgBitFactory/timewarrior/11?label=current%20milestone%20issues)](https://github.com/GothenburgBitFactory/timewarrior/milestone/11)
+[![Milestone progress](https://img.shields.io/github/milestones/progress/GothenburgBitFactory/timewarrior/11?label=current%20milestone%20issues)](https://github.com/GothenburgBitFactory/timewarrior/milestones)
 [![Good first issues](https://img.shields.io/github/issues/GothenburgBitFactory/timewarrior/good%20first%20issue)](https://github.com/GothenburgBitFactory/timewarrior/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 Contributions are greatly appreciated.
